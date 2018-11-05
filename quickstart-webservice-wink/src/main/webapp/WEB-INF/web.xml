@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="JerseyHelloWorld" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0" metadata-complete="true">
+
+	<display-name>apche-wink-sample</display-name>
+
+	<servlet>
+		<!-- JAX-RS provider's servlet -->
+		<servlet-name>restSdkService</servlet-name>
+		<servlet-class>org.apache.wink.server.internal.servlet.RestServlet</servlet-class>
+		<init-param>
+			<!-- <param-name>applicationConfigLocation</param-name> <param-value>/WEB-INF/application</param-value> -->
+			<param-name>javax.ws.rs.Application</param-name>
+			<param-value>org.quickstart.webservice.wink.BookWebApp</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>restSdkService</servlet-name>
+		<url-pattern>/rest/*</url-pattern>
+	</servlet-mapping>
+
+	<!-- 与Spring的集成，需要一个集成模块wink-spring-support，配置如下： -->
+	<!-- 其中wink-core-context.xml是wink-spring-support模块里面的一个Spring配置文件，app-context.xml配置如下： -->
+
+	<!-- <context-param> -->
+	<!-- <param-name>contextConfigLocation</param-name> -->
+	<!-- <param-value> classpath:META-INF/server/wink-core-context.xml, /WEB-INF/spring/app-context.xml </param-value> -->
+	<!-- </context-param> -->
+	<!-- <listener> -->
+	<!-- <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class> -->
+	<!-- </listener> -->
+
+</web-app> 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="JerseyHelloWorld" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0" metadata-complete="true">
+
+	<display-name>quickstart-webservice-resteasy-sample</display-name>
+	
+	<!-- 2.0需要如下配置，3.0不需要如下配置 -->
+	<context-param>
+	    <param-name>resteasy.scan</param-name>
+	    <param-value>true</param-value>
+	</context-param>
+	    
+	<context-param>
+	    <param-name>resteasy.servlet.mapping.prefix</param-name>
+	    <param-value>/rest</param-value>
+	</context-param>
+	    
+	<listener>
+	    <listener-class>
+	        org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap
+	    </listener-class>
+	</listener>
+	    
+	<servlet>
+	    <servlet-name>resteasy-servlet</servlet-name>
+	    <servlet-class>
+	        org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher
+	    </servlet-class>
+	    <init-param>
+      <param-name>javax.ws.rs.Application</param-name>
+      <param-value>org.quickstart.webservice.resteasy.HelloWorldApplication</param-value>
+    </init-param>
+	</servlet>
+	 
+	<servlet-mapping>
+	    <servlet-name>resteasy-servlet</servlet-name>
+	    <url-pattern>/rest/*</url-pattern>
+	</servlet-mapping>
+	
+	<!-- resteasy.scan: when set to true, the JVM scans for both @Provider and JAX-RS resource classes (@Path, @GET, @POST etc..) inside WEB-INF/classes and registers them. (Default value is false) -->
+	<!-- resteasy.servlet.mapping.prefix:  this parameter should be set if the url-pattern of the RESTEasy servlet is not /* -->
+	<!-- ResteasyBootstrap: The ResteasyBootstrap listener is responsible for initializing some basic components of RESTeasy as well as scanning for annotation classes in your application. It receives configuration options from <context-param> elements. -->
+	<!-- servlet-mapping: defines the URL of the requests to be processed by RESTEasy classes. In our example, all requests which are prefixed by /rest/* are processed by our service. -->
+	
+</web-app> 

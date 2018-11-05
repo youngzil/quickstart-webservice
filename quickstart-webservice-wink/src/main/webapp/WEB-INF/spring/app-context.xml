@@ -1,0 +1,14 @@
+<bean class="org.apache.wink.spring.Registrar">
+	<property name="classes">
+		<set value-type="java.lang.Class">
+		</set>
+	</property>
+	<property name="instances">
+		<set>
+			<ref local="helloWorldResource" />
+		</set>
+	</property>
+</bean>
+
+<!-- Resources -->
+<bean id="helloWorldResource" class="HelloWorldResource" />
