@@ -7,6 +7,7 @@ wsgen -keep -cp . org.quickstart.webservice.jws.server.MyServiceImpl
 http://localhost:8080/quickstart-webservice-web/service/MyService?wsdl
 
 
+
 路径在src/main/webapp/WEB-INF/sun-jaxws.xml中配置
 http://localhost:8080/quickstart-webservice-web/service/MyService?wsdl
 
