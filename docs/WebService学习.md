@@ -8,7 +8,7 @@
 
 Java中共有三种Web Service规范，分别是JAXM&SAAJ、JAX-WS(JAX-RPC)、JAX-RS。
 
-JAX-WS(Java API ForXML-WebService)，JDK1.6自带的版本为JAX-WS2.1，其底层支持为JAXB。早期的基于SOAP的JAVA的Web服务规范JAX-RPC(Java API For XML-RemoteProcedure Call)目前已经被JAX-WS规范取代，JAX-WS是JAX-RPC的演进版本，但JAX-WS并不完全向后兼容JAX-RPC，二者最大的区别就是RPC/encoded样式的WSDL，JAX-WS已经不提供这种支持。
+JAX-WS(Java API For XML-WebService)，JDK1.6自带的版本为JAX-WS2.1，其底层支持为JAXB。早期的基于SOAP的JAVA的Web服务规范JAX-RPC(Java API For XML-RemoteProcedure Call)目前已经被JAX-WS规范取代，JAX-WS是JAX-RPC的演进版本，但JAX-WS并不完全向后兼容JAX-RPC，二者最大的区别就是RPC/encoded样式的WSDL，JAX-WS已经不提供这种支持。
 
 
 JAX-RS (JavaAPI for RESTful Web Services)是Rest技术的一个Java实现规范，这个新规范提供了基于REST的webservice开发的应用程序接口。它主要关注使用Java注释和普通旧式Java对象(POJO)实现RESTful服务。尽管总是可以使用servlet实现RESTful服务，但是以这种方式实现业务逻辑需要太多HTTP GET请求。
