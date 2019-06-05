@@ -3,7 +3,7 @@
  * 文件名：ClientTest.java
  * 版本信息：
  * 日期：2018年11月2日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.webservice.jws.client;
@@ -19,7 +19,7 @@ import org.quickstart.webservice.jws.server.MyServiceImplService;
 /**
  * ClientTest
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月2日 下午5:40:50
  * @since 1.0
  */

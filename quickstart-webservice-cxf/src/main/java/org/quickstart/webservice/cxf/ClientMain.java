@@ -3,7 +3,7 @@
  * 文件名：ClientMain.java
  * 版本信息：
  * 日期：2018年11月3日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.webservice.cxf;
@@ -19,7 +19,7 @@ import org.apache.cxf.jaxws.endpoint.dynamic.JaxWsDynamicClientFactory;
 /**
  * ClientMain
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月3日 下午5:27:07
  * @since 1.0
  */

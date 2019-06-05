@@ -3,7 +3,7 @@
  * 文件名：MyServer.java
  * 版本信息：
  * 日期：2018年11月2日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.webservice.jws.server;
@@ -13,7 +13,7 @@ import javax.xml.ws.Endpoint;
 /**
  * MyServer
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月2日 下午5:17:03
  * @since 1.0
  */

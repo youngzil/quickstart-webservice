@@ -3,7 +3,7 @@
  * 文件名：HelloWorld.java
  * 版本信息：
  * 日期：2018年11月5日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.webservice.resteasy;
@@ -16,7 +16,7 @@ import javax.ws.rs.core.MediaType;
 /**
  * HelloWorld
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月5日 下午4:57:32
  * @since 1.0
  */

@@ -3,7 +3,7 @@
  * 文件名：MyServiceImpl.java
  * 版本信息：
  * 日期：2018年11月2日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.webservice.jws.server;
@@ -11,7 +11,7 @@ package org.quickstart.webservice.jws.server;
 /**
  * MyServiceImpl
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月2日 下午4:55:46
  * @since 1.0
  */

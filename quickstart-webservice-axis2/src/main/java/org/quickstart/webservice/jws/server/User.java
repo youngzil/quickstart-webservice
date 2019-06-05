@@ -3,7 +3,7 @@
  * 文件名：User.java
  * 版本信息：
  * 日期：2018年11月2日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.webservice.jws.server;
@@ -14,7 +14,7 @@ import lombok.Setter;
 /**
  * User
  * 
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月2日 下午4:56:18
  * @since 1.0
  */

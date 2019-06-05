@@ -3,7 +3,7 @@
  * 文件名：Application.java
  * 版本信息：
  * 日期：2018年11月5日
- * Copyright asiainfo Corporation 2018
+ * Copyright yangzl Corporation 2018
  * 版权所有 *
  */
 package org.quickstart.webservice.spring.boot;
@@ -14,7 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Application 
  *  
- * @author：yangzl@asiainfo.com
+ * @author：youngzil@163.com
  * @2018年11月5日 下午7:03:53 
  * @since 1.0
  */
