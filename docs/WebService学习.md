@@ -1,3 +1,37 @@
+Web Service 已经是过时之物，平常基本使用甚少，建议不要在折腾它了
+
+WebService简介
+WebService就是一种跨编程语言和跨操作系统平台的远程调用技术。
+
+
+
+WebService原理
+XML,SOAP和WSDL就是构成WebService平台的三大技术 。
+WebService使用XML来封装数据
+特定的HTTP消息头和XML内容格式就是SOAP协议规定的。
+WebService服务器端首先要通过一个WSDL文件来说明自己有什么服务可以对外调用
+
+
+
+
+JAVA WebService规范
+Java 中共有三种WebService 规范，分别是JAXM&SAAJ、JAX-WS（JAX-RPC）、JAX-RS。
+
+JAX-RS (JavaAPI for RESTful Web Services)是Rest技术的一个Java实现规范，这个新规范提供了基于REST的webservice开发的应用程序接口。
+JAX-WS（Java6引进） 是SOAP协议的一个Java的实现规范，这个新规范是为了简化基于SOAP的Java开发。
+
+
+
+
+基于SOAP的WebService解决方案
+1、直接使用JWS api 实现，不借助任何webservice框架
+2、基于JAX-WS规范的webservice 开发框架：Apache Axis2 和Apache CXF
+
+
+
+---------------------------------------------------------------------------------------------------------------------  
+
+
 一、基于SOAP的WebService解决方案
 1、直接使用JWS api 实现，不借助任何webservice框架
 2、基于JAX-WS规范的webservice 开发框架：Apache Axis2 和Apache CXF
@@ -81,6 +115,12 @@ Web Service：
 从使用方式上，分为RPC，SOAP，REST；
 从数据格式上，分为XML，JSON；
 其中，RPC和SOAP的使用在减少，Restful架构占到了主导地位；XML格式的使用在减少，json等轻量级格式的使用在增多。
+
+
+
+WebService简介
+https://blog.csdn.net/c99463904/article/details/76018436
+https://blog.csdn.net/pengjwhx/article/details/83383959
 
 
 
