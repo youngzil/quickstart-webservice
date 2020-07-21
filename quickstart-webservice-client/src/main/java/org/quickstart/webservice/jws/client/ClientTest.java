@@ -32,10 +32,10 @@ public class ClientTest {
     public static void main(String[] args) throws MalformedURLException {
 
         // 创建访问wsdl服务地址的url
-        // String urlStr = "http://localhost:8888/ns?wsdl";
         // String urlStr = "http://localhost:8080/quickstart-webservice-web/service/MyService?wsdl";
-        String urlStr = "http://localhost:8089/services/MyService?wsdl";
-        URL url = new URL(urlStr);
+      // String urlStr = "http://localhost:8089/services/MyService?wsdl";
+      String urlStr = "http://localhost:8888/ns?wsdl";
+      URL url = new URL(urlStr);
         // 通过Qname指明服务的具体信息
         QName sname = new QName("http://server.jws.webservice.quickstart.org/", "MyServiceImplService");
 
